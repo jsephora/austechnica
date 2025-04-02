@@ -29,17 +29,17 @@ const title = 'Joeys Template';
 			<router-link :to="{ name: 'home' }" class="text-xl">{{ title }}</router-link>
 		</div>
 		<div class="inline-flex flex-none gap-x-2">
-			<router-link
+			<!-- <router-link
 				:to="{ name: 'home' }"
 				class="btn btn-ghost"
 				:class="{ 'btn-active': router.currentRoute.value.name === 'home' }"
-			>Home</router-link>
+			>Home</router-link> -->
 
-			<router-link
+			<!-- <router-link
 				:to="{ name: 'componentsPreview' }"
 				class="btn btn-ghost"
 				:class="{ 'btn-active': router.currentRoute.value.name === 'componentsPreview' }"
-			>Components Preview</router-link>
+			>Components Preview</router-link> -->
 
 			<ThemeControllerMini class="mx-2"/>
 
