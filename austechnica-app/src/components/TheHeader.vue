@@ -4,7 +4,7 @@ import ThemeControllerMini from "@/components/ThemeControllerMini.vue";
 import Breadcrumbs from "@/components/Breadcrumbs.vue";
 
 const router = useRouter();
-const title = 'Template Preview';
+const title = 'Joeys Template';
 </script>
 
 <template>
