@@ -4,7 +4,7 @@ import logoVue from "@/assets/images/vue.svg";
 import logoDaisyUi from '@/assets/images/daisyui-logomark.svg';
 import logoTailwindcss from '@/assets/images/tailwindcss.svg';
 import logoSass from '@/assets/images/sass.svg';
-const logoVite = import.meta.env.BASE_URL + '/vite.svg';
+import logoVite from '@/assets/images/vite.svg';
 
 const items = ref([
 	{
