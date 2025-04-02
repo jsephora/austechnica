@@ -3,6 +3,8 @@ import TemplatePackages from "@/components/Home/TemplatePackages.vue";
 import ThemeController from "@/components/Home/ThemeController.vue";
 import ComponentsPreview from "@/components/Home/ComponentsPreview.vue";
 import Guide from "@/components/Home/Guide.vue";
+import CurrencyConverter from '@/components/CurrencyConverter.vue';
+
 
 const title = document.title;
 const currentHostname = window.location.hostname;
@@ -16,10 +18,10 @@ const currentHostname = window.location.hostname;
 				class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
 				<div class="lg:pt-4 lg:pr-8">
 					<div class="lg:max-w-lg">
-						<h2 class="text-base/7 font-semibold text-indigo-600">Deploy faster</h2>
-						<p class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">A
+						<h2 class="text-base/7 font-semibold">Deploy faster</h2>
+						<p class="mt-2 text-4xl font-semibold tracking-tight text-pretty sm:text-5xl">A
 							better workflow</p>
-						<p class="mt-6 text-lg/8 text-gray-600">Lorem ipsum, dolor sit amet consectetur adipisicing
+						<p class="mt-6 text-lg/8">Lorem ipsum, dolor sit amet consectetur adipisicing
 							elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
 						</p>
 						<br>
@@ -60,6 +62,13 @@ const currentHostname = window.location.hostname;
 	<div class="bg-base-300 text-base-content text-center mb-10">
 		<div class="container-center pb-4">
 			<TemplatePackages />
+		</div>
+	</div>
+
+		<!-- Currency Converter -->
+	<div class="bg-base-900 text-base-content text-center mb-10">
+		<div class="container-center pb-4">
+			<currency-converter />
 		</div>
 	</div>
 
