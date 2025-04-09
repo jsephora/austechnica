@@ -7,7 +7,7 @@ export default {
         return {
             params: {
                 base_currency: 'AUD',
-                currencies: 'JPY, EUR, USD'
+                currencies: 'JPY,EUR,USD'
             },
             results: null,
             currencyApi: new CurrencyAPI('cur_live_ddEu9ijuITuP5VvC1XYN4cYSUAcFHsfppMXWv7RH')

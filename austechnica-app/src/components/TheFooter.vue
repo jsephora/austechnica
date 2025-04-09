@@ -4,7 +4,7 @@
 
 <template>
 	<footer class="bg-neutral text-neutral-content p-10">
-		<h4 class="footer-title text-center border-b border-base-300 border-b-dashed pb-4 mb-8">Dis be da futta yo</h4>
+		<h4 class="footer-title text-center border-b border-base-300 border-b-dashed pb-4 mb-8">Dis be da foota yo</h4>
 		<div class="footer sm:footer-horizontal">
 			<nav>
 				<h6 class="footer-title">Services</h6>
